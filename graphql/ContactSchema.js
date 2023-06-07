@@ -32,8 +32,8 @@ class Contact {
         this._id = _id;
         this.name = name;
         this.phone = phone;
-    }
-}
+    } 
+} 
 
 var root = {
     getContacts: () => ContactModel.find(),
